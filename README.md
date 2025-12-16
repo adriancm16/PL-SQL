@@ -19,9 +19,11 @@ from "finance.yahoo.com" which has 5295 data in total.
 In the file "_TALLER_PL_1_2024.XLSX", the way in which the summary should be carried out is displayed;
 In this case it exemplifies it for the year 2016.
 
-- In "Data" the averages are calculated for each column grouped by quartiles of the year
-- In "Aspect" It is the final result of analyzing in each quaterio for each of the companies, this table
-This is what should be generated with PL-SQL, through a procedure that uses the year as the parameter "SUMMARY_BOLSA(year)"
+  - In "Data" the averages are calculated for each column grouped by quartiles of the year
+  - In "Aspect" It is the final result of analyzing in each quaterio for each of the companies, this table
+  This is what should be generated with PL-SQL, through a procedure that uses the year as the parameter "SUMMARY_BOLSA(year)"
 
 * "Informe Package Bolsa Valores.pdf" details the entire ETL process, from the import of the information to the
 treatment with stored procedures and functions to reach the result of the summary table.
+
+* Script_BOLSA_VALORES.txt is the script made for the project.
